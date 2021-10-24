@@ -1,0 +1,381 @@
+@font-face{
+    font-family: myfirstfont;
+    src:url('../font/Amiri-BoldItalic.ttf');
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:myfirstfont ;
+}
+ body{
+    min-height: 1000px;
+  
+} 
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0,5s;
+    
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header .logo span{
+    color: #ff0157;
+}
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+
+
+header .navigation li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+header .navigation li a:hover{
+    color: #ff0157;
+}
+
+p{
+    font-weight: 300;
+    color: #000;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:url('../img/pexels-photo-1092730.jpeg.jpg');
+    background-size: cover;
+   
+}
+.banner1{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.banner .content{
+    max-width: 900vh;
+    text-align: center;
+    padding: 300px;
+  
+}
+
+.banner .content h2{
+    font-size: 5em;
+    color: #fff;
+    text-transform: capitalize;
+}
+.banner .content p{
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: 1px;
+    
+}
+.btn{
+    font-size: 1em;
+    color: #fff;
+    background:#ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+
+
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    
+}
+.row .col50{
+    position: relative;
+    width:100%;
+    
+}
+.titleText{
+color: #111;
+font-size: 2em;
+font-weight: 300;
+
+
+}
+ span{
+    color:#ff0157 ;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .col50 .imgBx{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  
+    
+}
+.row .col50 .imgBx img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.title{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.menu .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.menu .content .box{
+    width: 300px;
+    margin: 20px;
+    border: 15px solid rgba(255, 255, 255, 0.87);
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+.menu .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+   
+}
+.menu .content .box .imgBx img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+.menu .content .box .text{
+    padding:  15px 0 5px;
+   
+}
+.menu .content .box .text h2{
+   font-weight: 400;
+   color: #000;
+  
+}
+
+.expert .content1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.title1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.expert .content1 .box1{
+    width: 250px;
+    margin: 15px;
+}
+.expert .content1 .box1 .imgBx1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+.expert .content1 .box1 .imgBx1 img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.expert .content1 .box1 text{
+    padding: 15px 0 5px ;
+}
+.expert .content1 .box1 text p{
+    font-weight: 400px;
+    color: #000;
+
+}
+
+
+
+  .testimonials{
+    background:url('../img/tbl_articles_article_21305_228e818dccc-e0ac-4cab-9402-4facb569eb2d.jpg');
+    background-size: cover;
+    margin-top: 150px;
+   
+}
+.image{
+    background-color: rgba(55, 60, 53, 0.5);
+    background-size: cover;
+    margin-top: 150px;
+}
+
+.white, 
+.white p{
+    color: #fff;
+} 
+
+.testimonials .content3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+}
+.testimonials .content3 .box2{
+    width: 390px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+ .imgBx2 img{ 
+    position: relative;
+    width: 100px;
+    height: 100px ;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+     
+.testimonials .content3 .box2 .text{
+    text-align: center;
+
+}
+.testimonials .content3 .box2 .text p{
+    color: #666;
+    font-style: initial;
+
+}
+.titlewhite {
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+
+}
+.titlewhite p{
+    color: #fff;
+}
+.contact{
+    background-image: url('../img/pexels-trang-doan-1128678.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.image2{
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+ .contactForm{
+    padding: 75px 50px ;
+    background:#fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-top: 30px;
+    margin-left: 40px;
+} 
+ .contactForm h3{
+    color: #000;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+} 
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+width: 100%;
+border: 1px solid #555;
+padding: 10px;
+color: #000;
+outline: none;
+font-size: 16px;
+font-weight: 300;
+resize: none;
+}
+.contactForm .inputBox input[type="submit"]{
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.copyrightText{
+    padding: 8px 40px ;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+.copyrightText p{
+    color: #333;
+
+}
+
