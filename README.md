@@ -7,7 +7,9 @@ Through the restaurant, it show you what it offers you in the restaurant
 1. html
 1. css
 1. image
-2. 
+
+---
+
 * visit site💥
 
 
